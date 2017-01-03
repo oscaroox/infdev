@@ -49,8 +49,9 @@ print("exercise 2 List results \n isEmpty: {0} \n Length: {1} \n Sum: {2} \n".fo
 #exercise 3
 mp = l.Map(lambda x:  x + 2)
 fl = l.Filter(lambda x: x % 3 == 0)
-print("exercise 3 List results \n Map: {0} \n Filter: {1}".format(mp, fl))
+print("exercise 3 List results \n Map: {0} \n Filter: {1} \n".format(mp, fl))
 
 #exercise 4
 fold = l.Fold(lambda x, y: x+y, 0)
-print(fold)
+
+print("exercise 4 Fold result: {0}".format(fold))
